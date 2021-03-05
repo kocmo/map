@@ -8,6 +8,8 @@ import (
 	"sync"
 
 	"github.com/gocolly/colly"
+	sanitize "github.com/kennygrant/sanitize"
+	"github.com/velebak/colly-sqlite3-storage/colly/sqlite3"
 
 	"github.com/kocmo/map/collect"
 	"github.com/kocmo/map/io"
@@ -66,6 +68,14 @@ func New(path, domains string) *Spider {
 
 	// Be explicit
 	collector.AllowURLRevisit = false
+
+	// use SQLite3 storage instead of in-memory db
+	dbFilename := "./" + sanitize.BaseName(path) + ".db"
+	storage := &sqlite3.Storage{Filename: dbFilename}
+
+	if err := collector.SetStorage(storage); err != nil {
+		panic(err) // TODO: propagate error instead
+	}
 
 	return &Spider{
 		isDone:   false,
