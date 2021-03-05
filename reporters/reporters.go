@@ -4,11 +4,11 @@ package reporters
 import (
 	"github.com/go-errors/errors"
 
-	"github.com/markelog/map/spider"
+	"github.com/kocmo/map/spider"
 
 	// Reporters
-	"github.com/markelog/map/reporters/json"
-	"github.com/markelog/map/reporters/yaml"
+	"github.com/kocmo/map/reporters/json"
+	"github.com/kocmo/map/reporters/yaml"
 )
 
 // Available list of reporters

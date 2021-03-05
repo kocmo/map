@@ -8,10 +8,10 @@ import (
 	"github.com/go-errors/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/markelog/map/io"
-	"github.com/markelog/map/print"
-	"github.com/markelog/map/reporters"
-	"github.com/markelog/map/spider"
+	"github.com/kocmo/map/io"
+	"github.com/kocmo/map/print"
+	"github.com/kocmo/map/reporters"
+	"github.com/kocmo/map/spider"
 )
 
 // Reporter name

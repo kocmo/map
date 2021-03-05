@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/markelog/map/list"
+	. "github.com/kocmo/map/list"
 )
 
 var _ = Describe("list", func() {

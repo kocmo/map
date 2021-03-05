@@ -9,10 +9,10 @@ import (
 
 	"github.com/gocolly/colly"
 
-	"github.com/markelog/map/collect"
-	"github.com/markelog/map/io"
-	"github.com/markelog/map/list"
-	"github.com/markelog/map/validation"
+	"github.com/kocmo/map/collect"
+	"github.com/kocmo/map/io"
+	"github.com/kocmo/map/list"
+	"github.com/kocmo/map/validation"
 )
 
 // Result spider data that we eventually return

@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/sanity-io/litter"
 
-	. "github.com/markelog/map/collect"
-	"github.com/markelog/map/io"
+	. "github.com/kocmo/map/collect"
+	"github.com/kocmo/map/io"
 )
 
 var _ = Describe("io", func() {

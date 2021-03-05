@@ -4,7 +4,7 @@ package json
 import (
 	"encoding/json"
 
-	"github.com/markelog/map/spider"
+	"github.com/kocmo/map/spider"
 )
 
 // Execute json reporter

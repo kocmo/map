@@ -9,8 +9,8 @@ import (
 	"github.com/go-errors/errors"
 	"github.com/mgutz/ansi"
 
-	"github.com/markelog/map/print/spinner"
-	"github.com/markelog/map/spider"
+	"github.com/kocmo/map/print/spinner"
+	"github.com/kocmo/map/spider"
 )
 
 // isDebug checks if we are in debug mode

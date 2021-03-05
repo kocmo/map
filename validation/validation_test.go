@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/markelog/map/validation"
+	. "github.com/kocmo/map/validation"
 )
 
 var _ = Describe("validation", func() {

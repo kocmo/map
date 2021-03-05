@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/markelog/map/io"
+	. "github.com/kocmo/map/io"
 )
 
 var _ = Describe("io", func() {

@@ -2,7 +2,7 @@
 package yaml
 
 import (
-	"github.com/markelog/map/spider"
+	"github.com/kocmo/map/spider"
 
 	"github.com/ghodss/yaml"
 )

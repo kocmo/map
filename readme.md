@@ -1,12 +1,10 @@
-# Map [![Build Status](https://travis-ci.org/markelog/map.svg?branch=master)](https://travis-ci.org/markelog/map) [![GoDoc](https://godoc.org/github.com/markelog/map?status.svg)](https://godoc.org/github.com/markelog/map) [![Go Report Card](https://goreportcard.com/badge/github.com/markelog/map)](https://goreportcard.com/report/github.com/markelog/map)
-
 > Generates map site
 
 Simple site map generator, supports couple reporters, depth levels and etc
 
 ## Install
 ```sh
-go get github.com/markelog/map
+go get github.com/kocmo/map
 ```
 
 ## Usage

@@ -8,9 +8,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/markelog/map/reporters"
-	"github.com/markelog/map/reporters/json"
-	"github.com/markelog/map/spider"
+	. "github.com/kocmo/map/reporters"
+	"github.com/kocmo/map/reporters/json"
+	"github.com/kocmo/map/spider"
 )
 
 var _ = Describe("reporters", func() {

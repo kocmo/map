@@ -13,7 +13,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/sanity-io/litter"
 
-	. "github.com/markelog/map/spider"
+	. "github.com/kocmo/map/spider"
 )
 
 var _ = Describe("spider", func() {
